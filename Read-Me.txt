@@ -1,0 +1,29 @@
+Effective Prediction of BankRuptcy using Fuzzy Logic, Fuzzy Inference System using Fuzzy C-Means Clustering and Deep neural network.
+- We have developed this project using Matlab and Rapid Miner neural network.
+
+
+Methodology 1: Fuzzy Logic
+
+- Open Mat lab and open the folder "Fuzzy Logic (Mamadani)".
+- In console, type Fuzzy. It will open a Fuzzy Logic Toolbox.
+- In Menubar, Click File and import the developed project file named Fuzzy Logic.fis
+- Then the model will be opened. We can see the fuzzy rule base and other parameters.
+- Predicted output can be seen
+
+Methodology 2: Fuzzy Inference system using Fuzzy C-Means Clustering.
+
+- Open Matlab and Open folder "FIS using FCM".
+- Open the file "FisUsingFCM.m". This the main project file developed.
+- Check the path of the data file named "Qualitative_Bankruptcy.data".
+- Click on the Run Button. Then the file runs properly and it displays the newly created fuzzy infernece system and accuracy of the model.
+- Type command "showrule(fis)" to show rules.
+- Type the command "fis.output.range" to view output range
+- Type command "output = evalfis([2;3;1;2;1;3], fis)" to view the final output.
+
+Methodology 3: Neural Network
+
+- Install Rapid miner tool.
+- Open Rapid miner and open folder "NeuralNet".
+- Load the developed project file "bankruptcy prediction neuralnet.rmp"
+- Import the data from "Qualitative_Bankruptcy.data".
+- All the parameters are already set. Click on Run button to view the output.
